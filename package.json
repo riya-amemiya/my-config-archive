@@ -1,0 +1,15 @@
+{
+  "name": "my-config-archive",
+  "version": "1.0.0",
+  "description": "This repository is for managing configuration files such as Biome and ESLint.",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

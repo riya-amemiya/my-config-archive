@@ -4,7 +4,7 @@
   "description": "This repository is for managing configuration files such as Biome and ESLint.",
   "dependencies": {},
   "devDependencies": {
-    "@biomejs/biome": "1.7.2",
+    "@biomejs/biome": "1.8.1",
     "jest": "^29.7.0"
   },
   "scripts": {

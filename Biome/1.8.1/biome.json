@@ -1,0 +1,94 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
+	"files": {
+		"ignore": [
+			"node_modules",
+			"module",
+			"*.json",
+			"doc",
+			"coverage"
+		]
+	},
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": false,
+		"indentStyle": "space",
+		"lineWidth": 80
+	},
+	"javascript": {
+		"globals": [
+			"describe",
+			"beforeEach",
+			"it",
+			"expect",
+			"test",
+			"beforeAll",
+			"afterEach",
+			"afterAll"
+		]
+	},
+	"json": {
+		"formatter": {
+			"enabled": false
+		}
+	},
+	"linter": {
+		"enabled": true,
+		"ignore": [
+			"tests",
+			".dependency-cruiser.js"
+		],
+		"rules": {
+			"a11y": {
+				"noSvgWithoutTitle": "warn"
+			},
+			"complexity": {
+				"noExcessiveCognitiveComplexity": "off",
+				"noVoid": "error",
+				"useSimplifiedLogicExpression": "error"
+			},
+			"correctness": {
+				"noConstantMathMinMaxClamp": "error",
+				"noUndeclaredVariables": "warn",
+				"noUnusedVariables": "warn",
+				"useExhaustiveDependencies": "warn",
+				"useHookAtTopLevel": "error"
+			},
+			"nursery": {
+				"noDoneCallback": "error",
+				"noDuplicateElseIf": "error",
+				"noDuplicateJsonKeys": "error",
+				"noEvolvingTypes": "error",
+				"noMisplacedAssertion": "error"
+			},
+			"recommended": true,
+			"style": {
+				"noImplicitBoolean": "warn",
+				"noNamespaceImport": "error",
+				"noNegationElse": "error",
+				"noParameterAssign": "off",
+				"noParameterProperties": "off",
+				"noShoutyConstants": "warn",
+				"useBlockStatements": "error",
+				"useFragmentSyntax": "error",
+				"useNamingConvention": {
+					"level": "off",
+					"options": {
+						"enumMemberCase": "CONSTANT_CASE",
+						"strictCase": true
+					}
+				},
+				"useShorthandArrayType": "error",
+				"useShorthandAssign": "error",
+				"useSingleCaseStatement": "error"
+			},
+			"suspicious": {
+				"noEmptyBlockStatements": "error",
+				"noSkippedTests": "error"
+			}
+		}
+	},
+	"organizeImports": {
+		"enabled": false
+	}
+}
